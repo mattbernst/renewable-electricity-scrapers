@@ -60,7 +60,8 @@ def sum_energies():
         errors = ["[-11059] No Good Data For Calculation",
                   "Resize to show all values",
                   "Connection to the server lost.",
-                  "#NAME?"]
+                  "#NAME?",
+                  "Invalid function argument:Start time and End time differ by less than 15 micro seconds"]
         
         with open(fname) as infile:
             data = infile.read()
