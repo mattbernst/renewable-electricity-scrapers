@@ -15,7 +15,8 @@ class CAISO(object):
                        "#NAME?",
                        "#VALUE!",
                        "#REF!",
-                       "Invalid function argument:Start time and End time differ by less than 15 micro seconds"]
+                       "Invalid function argument:Start time and End time differ by less than 15 micro seconds",
+                       '"The supplied DateTime represents an invalid time.  For example, when the clock is adjusted forward, any time in the period that is skipped is invalid.\r\nParameter name: dateTime"']
     
     def filenames(self):
         """Generate all filenames for CAISO renewables data up to yesterday."""
